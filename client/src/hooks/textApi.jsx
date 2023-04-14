@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/"
+  baseURL: "https://personal-blog-server-ten.vercel.app/"
 });
 
 export const textApi = () => ({
